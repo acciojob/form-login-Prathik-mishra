@@ -1,8 +1,7 @@
 function getFormvalue() {
     //Write your code here
-let from= document.getElementById("from1");
-	let fname1=from.elements['fname'].value;
-	let fname2=from.elements['lname'].value;
-
-	alert(fname1+" "+fname2);
+var form=document.getElementById('form1');
+	let name1=form.elements['fname'].value;
+	let name2=form.elements['lname'].value;
+	alert(name1+" "+name2);
 }
